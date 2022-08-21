@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.input {
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.button {
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 10px;
+}

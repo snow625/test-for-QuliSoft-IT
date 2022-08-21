@@ -1,0 +1,12 @@
+.singleContainer {
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+
+.buttonWrapper {
+  margin-bottom: 50px;
+}
+.error {
+  font-size: 25px;
+  font-weight: 500;
+}
