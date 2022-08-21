@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { memo } from "react";
+import PropTypes from "prop-types";
 
 import style from "./imgItem.module.css";
 
@@ -24,6 +25,14 @@ const ImgItem = (props) => {
       </Link>
     </li>
   );
+};
+
+ImgItem.propTypes = {
+  ulr: PropTypes.string.isRequired,
+  imgName: PropTypes.string.isRequired,
+  altForImg: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  userName: PropTypes.string.isRequired,
 };
 
 export default memo(ImgItem);
